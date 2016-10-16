@@ -1,0 +1,24 @@
+{
+    "name": "frostiede/silex-assetic-serviceprovider",
+    "require": {
+        "php": ">=5.6",
+        "pimple/pimple": "^3.0",
+        "kriswallsmith/assetic": "^1.3",
+        "symfony/finder": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    },
+    "suggest": {
+        "matthiasmullie/minify": "Minifies CSS files (needed for CssMinifyFilter)",
+        "patchwork/jsqueeze": "Minifies JS files (needed for JsMinifyFilter)",
+        "knplabs/console-service-provider": "Provices command support (needed for AsseticDumpCommand)"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Marnitz",
+            "email": "marcelmarnitz@googlemail.com"
+        }
+    ]
+}
