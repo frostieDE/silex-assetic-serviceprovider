@@ -20,5 +20,10 @@
             "name": "Marcel Marnitz",
             "email": "marcelmarnitz@googlemail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "FrostieDE\\Silex\\": "src/FrostieDE/Silex"
+        }
+    }
 }
